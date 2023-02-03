@@ -12,7 +12,12 @@ Gibbon uses [PHPUnit](https://phpunit.de/) and [Codeception](https://codeception
 
 ### PHPUnit ###
 PHPUnit tests can be run with the `phpunit .` command in the /tests folder
-
+If you have downloaded phpunit as .phar then use the following command from within the /tests folder
+> php <path to phpunit.phar> .
+  e.g., php ..\..\phpunit-9.5.28.phar .
+If for some reason php is not recognized as a valid command then please add path to php.exe in the environment settings in windows or similar setting in linux based system
+  e.g., PATH=%PATH%;C:\wamp64\bin\php\php8.0.13
+  
 ### Codeception ###
 Codeception tests can be run with the `codecept run` command in the /tests folder
 
